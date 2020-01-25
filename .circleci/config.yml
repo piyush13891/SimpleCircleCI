@@ -24,4 +24,5 @@ jobs:
       - checkout
       
       # run tests!
+      - run: mvn clean      
       - run: mvn test
