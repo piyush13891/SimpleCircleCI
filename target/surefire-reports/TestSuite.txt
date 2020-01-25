@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.884 sec <<< FAILURE! - in TestSuite
+verifyHomepageTitle(Test.Test.NewTest)  Time elapsed: 48.174 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RU7T28A', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+	at Test.Test.NewTest.verifyHomepageTitle(NewTest.java:19)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:31735/hub/status] to be available after 45006 ms
+	at Test.Test.NewTest.verifyHomepageTitle(NewTest.java:19)
+Caused by: java.util.concurrent.TimeoutException
+	at Test.Test.NewTest.verifyHomepageTitle(NewTest.java:19)
+
